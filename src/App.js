@@ -50,7 +50,7 @@ const App = () => {
       modalRef
     );
 
-  }, [dark]);
+  }, [themeColor]);
 
   useEffect(() => {
     function closeModal() {
