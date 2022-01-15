@@ -1,0 +1,17 @@
+.case-card {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.card-item {
+    margin: 15px;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+}

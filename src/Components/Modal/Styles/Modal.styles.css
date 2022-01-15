@@ -1,0 +1,115 @@
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+.modal-content {
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 10px;
+}
+
+.modal-header
+h2 {
+    color: #fff;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.modal-header
+i {
+    cursor: pointer;
+    color: rgb(119, 27, 27);
+    padding: 8px;
+}
+
+.modal-header
+i:hover {
+    background: rgb(214, 212, 212);
+}
+
+.country-search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.country-search-form
+input {
+    transform: translateY(15px);
+    margin: 10px;
+    width: 550px;
+    height: 45px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: 1.9px solid rgb(67, 95, 136);
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.country-search-form
+input:focus {
+    border: 2px solid rgb(67, 95, 136);
+}
+
+.stats-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stats-container
+.stat-item {
+    margin: 10px;
+    width: 400px;
+    padding: 8px;
+    height: 40px;
+    font-size: 19px;
+    background: rgb(4, 28, 51);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.stats-container
+.stat-item:hover {
+    opacity: 0.9;
+    background: rgb(4, 29, 51);
+}
+
+.reverse-btn {
+    position: relative;
+    top: 4px;
+    padding: 8px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    background: rgb(69, 88, 131);
+    border-radius: 4px;
+    color: #fff;
+}

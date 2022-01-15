@@ -1,0 +1,54 @@
+.total-cases-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-card {
+    width: 300px;
+    height: auto;
+    background: rgb(87, 129, 148);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.info-card
+h2 {
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.info-card
+p {
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.info-card
+p:nth-child(3) {
+    background: rgb(179, 168, 27);
+    font-weight: bold;
+}
+
+.info-card
+p:nth-child(4) {
+    background: rgb(122, 116, 24);
+    font-weight: bold;
+}
+
+.info-card
+p:nth-child(5) {
+    background: rgb(173, 55, 65);
+    font-weight: bold;
+}
+
+.info-card
+p:nth-child(6) {
+    background: rgb(27, 179, 121);
+    font-weight: bold;
+}
