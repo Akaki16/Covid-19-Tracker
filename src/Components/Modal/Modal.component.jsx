@@ -11,7 +11,6 @@ const Modal = ({
     handleTotalActive,
     handleTotalConfirmed,
     handleTotalDeaths,
-    handleTotalRecovered,
     cases,
     statsDisplay,
     itemDisplay,
@@ -57,9 +56,6 @@ const Modal = ({
                         <div className='stat-item'>
                             Total Deaths: <span>{handleTotalDeaths}</span>
                         </div>
-                        <div className='stat-item'>
-                            Total Recovered: <span>{handleTotalRecovered}</span>
-                        </div>
                     </div>
                     <div style={{
                         display: 'flex',
@@ -99,7 +95,6 @@ Modal.propTypes = {
     handleTotalActive: PropTypes.number,
     handleTotalConfirmed: PropTypes.number,
     handleTotalDeaths: PropTypes.number,
-    handleTotalRecovered: PropTypes.number,
     cases: PropTypes.array.isRequired
 };
 
