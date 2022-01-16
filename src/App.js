@@ -89,7 +89,7 @@ const App = () => {
     });
     setFilteredCountries(filteredCountries);
   }
-
+  
   return (
     <div>
       <Header handleDarkMode={() => setIsDark(!dark)} />
@@ -115,7 +115,6 @@ const App = () => {
         handleTotalActive={countryTotalCases.length > 1 ? functionService.totalActive(countryTotalCases) : null}
         handleTotalConfirmed={countryTotalCases.length > 1 ? functionService.totalConfirmed(countryTotalCases) : null}
         handleTotalDeaths={countryTotalCases.length > 1 ? functionService.totalDeaths(countryTotalCases) : null}
-        handleTotalRecovered={countryTotalCases.length > 1 ? functionService.totalRecovered(countryTotalCases) : null}
         cases={countryTotalCases}
         handleReverse={() => setIsReversed(!reversed)}
         reversed={flexWrap}
