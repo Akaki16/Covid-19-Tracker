@@ -21,35 +21,15 @@ const setTheme = (themeColor, inputRef, buttonRef, modalRef) => {
 }
 
 const totalActive = (countryCases) => {
-    let totalActive = 0;
-    for (let i = 0; i < countryCases.length; i++) {
-        totalActive += countryCases[i].Active;
-    }
-    return totalActive;
+    return countryCases[countryCases.length - 1].Active;
 }
 
 const totalConfirmed = (countryCases) => {
-    let totalConfirmed = 0;
-    for (let i = 0; i < countryCases.length; i++) {
-        totalConfirmed += countryCases[i].Confirmed;
-    }
-    return totalConfirmed;
+    return countryCases[countryCases.length - 1].Confirmed;
 }
 
 const totalDeaths = (countryCases) => {
-    let totalDeaths = 0;
-    for (let i = 0; i < countryCases.length; i++) {
-        totalDeaths += countryCases[i].Deaths;
-    }
-    return totalDeaths;
-}
-
-const totalRecovered = (countryCases) => {
-    let totalRecovered = 0;
-    for (let i = 0; i < countryCases.length; i++) {
-        totalRecovered += countryCases[i].Recovered;
-    }
-    return totalRecovered;
+    return countryCases[countryCases.length - 1].Deaths;
 }
 
 export default
@@ -58,5 +38,4 @@ export default
     totalActive,
     totalConfirmed,
     totalDeaths,
-    totalRecovered
 };
