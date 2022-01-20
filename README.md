@@ -20,6 +20,8 @@ Also you can used advanced search functionality to search cases in a specific co
 
 You can reverse the results from oldest to newest
 
+[live demo](https://sars19tracker.netlify.app/)
+
 ### Running instructions
 
 1) Open terminal in your operating system
