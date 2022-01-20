@@ -34,4 +34,4 @@ You can reverse the results from oldest to newest
 
 5) Type npm install to install required dependecies
 
-6) Type: npm start to start the project on port https://localhost:3000
+6) Type: npm start to start the project on port `https://localhost:3000`
