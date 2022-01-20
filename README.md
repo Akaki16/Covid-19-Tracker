@@ -1,18 +1,35 @@
 # Covid 19 Tracker
 
-## Intro
+This project was created by the React library.
 
-This project was developed by the React library and it uses (Coronavirus COVID 19 API).
-website of this API can be found here [covid19 api](https://documenter.getpostman.com/view/10808728/SzS8rjbc),
-When you open the app covid19 live statistics is displayed and data from all countries comes immediately, User can filter out these countries using search box or instead use advanced search and search cases in a specific country (cases from 2020 to 2022)
-Users are able to change app theme between light and dark.
-[live demo](https://sars19-tracker.netlify.app/)
+I used [Coronavirus COVID 19](https://documenter.getpostman.com/view/10808728/SzS8rjbc) API.
+
+## Featuring
+
+* React - UI framework
+* React Hook - a way to use state and side-effects in React function components
+* axios - a http client
+
+## App info
+
+Covid 19 global statistics is displayed in the app.
+
+You can filter countries using search box.
+
+Also you can used advanced search functionality to search cases in a specific country.
+
+You can reverse the results from oldest to newest
 
 ### Running instructions
-1) Open terminal in your operating system (e.g. git terminal on windows)
-2) Go to the desktop: `cd Desktop`
-3) Clone this project: `git clone [repo link]`
-4) After if you have cloned the project cd into it: `cd [cloned project]`
-5) Type `npm start` to open the project at `localhost:3000`
 
-If you have followed all the instructions carefully than everything should work 
+1) Open terminal in your operating system
+
+2) Go to desktop: cd Desktop
+
+3) Clone this project: git clone [repo link]
+
+4) Go to cloned project: cd [cloned project]
+
+5) Type npm install to install required dependecies
+
+6) Type: npm start to start the project on port https://localhost:3000
