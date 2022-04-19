@@ -2,7 +2,7 @@
 
 This project was created using the React library.
 
-I used [REST countries API](https://restcountries.com/).
+I used [COVID 19 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc).
 
 ## Featuring
 
@@ -12,12 +12,13 @@ I used [REST countries API](https://restcountries.com/).
 
 ### App Info
 
-Users are able to see the information about any country they want
-Information includes: Country Name, Population, Region, Capital.
-Also user can click on a specific country and in this case he/she is able to access more information about the country.
+Users are able to see covid 19 statistics.
+They can filter out countries by specifying a search query.
+Also users are able to use advanced search functionality to access covid 19 stats about the specific country from 2020 to current date.
+
 toggling between light and dark theme is available.
 
-[live demo](https://findanycountry.netlify.app/)
+[live demo](https://sars19tracker.netlify.app/)
 
 #### Running instructions
 
